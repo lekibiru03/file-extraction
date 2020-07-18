@@ -6,7 +6,7 @@
 module FileExtraction;
 
 # Configure where extracted files will be stored
-redef path = "";
+redef path = "/nsm/zeek/serianu-extracted";
 
 # Configure 'plugins' that can be loaded
 # these are shortcut modules to specify common 

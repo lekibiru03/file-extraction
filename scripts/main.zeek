@@ -4,7 +4,7 @@ module FileExtraction;
 
 export {
 	## Path to store files
-	const path: string = "" &redef;
+	const path: string = "/nsm/zeek/serianu-extracted" &redef;
 	## Hook to include files in extraction
 	global extract: hook(f: fa_file, meta: fa_metadata);
 	## Hook to exclude files from extraction
